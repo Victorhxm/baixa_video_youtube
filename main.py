@@ -7,7 +7,7 @@ def down():
     link = url.get()
     video = YouTube(link,on_progress_callback=on_progress)
     stream = video.streams.get_highest_resolution()
-    stream.download('~/Downloads')
+    stream.download('Downloads')
     print('Download completado!')
 #Menu
 window = Tk()
