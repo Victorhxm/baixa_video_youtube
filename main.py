@@ -21,7 +21,7 @@ Label(window,text="URL:").grid(row=0, sticky=W)
 
 #Imput Text
 url = StringVar()
-entry_variable = Entry(window, textvariable=url, width=90).grid(row=0, column=1)
+entry_url = Entry(window, textvariable=url, width=90).grid(row=0, column=1)
 
 #button
 btn_down = Button(window, text="Baixar", command=down).grid(row=2, column=1,sticky=E)
