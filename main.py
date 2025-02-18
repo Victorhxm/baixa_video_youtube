@@ -2,7 +2,6 @@ from tkinter import *
 from pytubefix import YouTube
 from pytubefix.cli import on_progress
 
-
 #Function
 def down():
     link = url.get()
@@ -16,7 +15,6 @@ window.title("APP baixar video do Youtube para professora Luanna Martins Versão
 window.geometry("600x250+200+200")
 window.resizable(False,False)
 window.iconbitmap("icon/icon.ico")
-#menu_inicial['bg'] = "white"
 
 #Label
 Label(window,text="URL:").grid(row=0, sticky=W)
