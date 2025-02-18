@@ -1,4 +1,6 @@
 from tkinter import *
+from tkinter import ttk
+import time
 from pytubefix import YouTube
 from pytubefix.cli import on_progress
 
@@ -8,7 +10,9 @@ def down():
     video = YouTube(link,on_progress_callback=on_progress)
     stream = video.streams.get_highest_resolution()
     stream.download('Downloads')
-    print('Download completado!')
+    Label(window, text="Download completo!").grid(row=3, column=1,sticky=W)
+    
+    
 #Menu
 window = Tk()
 window.title("APP baixar video do Youtube para professora Luanna Martins Versão: 1")
