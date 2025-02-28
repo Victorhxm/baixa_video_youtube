@@ -15,7 +15,7 @@ def down():
     
 #Menu
 window = Tk()
-window.title("APP baixar video do Youtube para professora Luanna Martins Versão: 1")
+window.title("APP baixar video do Youtube")
 window.geometry("600x250+200+200")
 window.resizable(False,False)
 window.iconbitmap("icon/icon.ico")
