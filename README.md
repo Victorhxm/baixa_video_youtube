@@ -1,7 +1,14 @@
 <h2>Baixa Vídeo Youtube</h2>
-
-
-
+<br>
+<h4>Projeto feito usando tkinter e pytubefix, para baixar video do Youtube </h4>
+<br>
+<ul>
+<li><b>Clone the repository:</b></li>
+git clone https://github.com/Victorhxm/Proj.Baixa_video_Youtube.git
+  
+</ul>
+<br>
+<br>
 
 
 
