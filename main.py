@@ -18,7 +18,7 @@ window = Tk()
 window.title("APP baixar video do Youtube")
 window.geometry("600x250+200+200")
 window.resizable(False,False)
-window.iconbitmap("icon/icon.ico")
+
 
 #Label
 Label(window,text="URL:").grid(row=0, sticky=W)
